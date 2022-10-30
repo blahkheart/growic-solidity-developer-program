@@ -21,4 +21,6 @@ contract UserBalance {
     function checkBalance() public view returns (uint256 _balance) {
         _balance = balances[msg.sender];
     }
+
+    
 }
